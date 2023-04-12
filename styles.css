@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+h1 {
+	text-align: center;
+}
+
+#buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.btn {
+	font-size: 24px;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.stop {
+	background-color: #f44336;
+}
